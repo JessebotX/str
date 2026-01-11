@@ -1,10 +1,10 @@
 # `str.h`
 
-A single-file header-only (stb-style) implementation of a non-null-terminated `string` type that can act as both a dynamically-sized string and a string view (i.e. similar to C++ `std::string` and `std::string_view`).
+A single-file header-only [(stb-style)][stb-style] implementation of a non-null-terminated `string` type that can act as both a dynamically-sized string and a string view (i.e. similar to C++ `std::string` and `std::string_view`).
 
 - Implementation of C++ style `std::string` and `std::string_view`
 - C89/C99/ANSI-C/C++ compatible library
-- Single-file header-only [stb-style](https://github.com/nothings/stb) library
+- Single-file header-only [stb-style][stb-style] library
 - Cross-platform and highly portable: no dependencies except C standard library
 
 ## Usage
@@ -89,3 +89,5 @@ main(void)
 	return 0;
 }
 ```
+
+[stb-style]: https://github.com/nothings/stb
